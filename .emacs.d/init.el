@@ -114,3 +114,7 @@
 ;; Company mode, enabled always
 (use-package company
   :hook (after-init . global-company-mode))
+
+(use-package smooth-scroll
+	:config
+	(smooth-scroll-mode t))
