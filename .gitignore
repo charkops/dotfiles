@@ -1,0 +1,9 @@
+# Emacs specific
+*~
+
+smex-items
+bookmarks
+auto-save-list/
+elpa/
+melpa/
+eshell/
