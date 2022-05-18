@@ -120,3 +120,9 @@
 	(smooth-scroll-mode t))
 
 (use-package yaml-mode)
+
+(use-package projectile
+	:bind
+	("C-c p f" . projectile-find-file)
+	:config
+	(projectile-mode t))
