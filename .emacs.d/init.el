@@ -22,10 +22,10 @@
 
 ;; Move customs to another location
 (setq custom-file "~/.emacs.d/custom.el")
-(load custom-file)
+;; (load custom-file)
 
 ;; Font
-(set-face-attribute 'default nil :font "Ubuntu Mono" :height 130)
+(set-face-attribute 'default nil :font "Ubuntu Mono" :height 110)
 
 ;; Init package sources
 (require 'package)
@@ -109,7 +109,9 @@
 (use-package typescript-mode)
 
 ;; Go
-(use-package go-mode)
+(use-package go-mode
+	:bind
+	("C-c C-<SPC>" . pop-global-mark))
 
 ;; Company mode, enabled always
 (use-package company
