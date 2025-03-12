@@ -1,0 +1,55 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorLineStart"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "cursorRight"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "cursorLeft"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+x ctrl+f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+x z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl-x 1",
+    "command": "workbench.action.closeEditorsInOtherGroups"
+  }
+]
